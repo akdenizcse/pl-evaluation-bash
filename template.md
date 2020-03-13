@@ -55,7 +55,7 @@ and is unique to bash. A regex equivalent of this would be darwin.*:
  esac
 ```
 
-A while loop to prompt user about an action:
+A while loop to prompt user to get an action:
 
 ```bash
 while true
@@ -77,5 +77,27 @@ while true
 done
 ```
 
-
 #### Things that are specific to this language?
+Bash, in and of itself, is a very specific languague. It is a **shell** language and
+it's in the core of the UNIX system (or it was, when it all started) therefore it implements
+its philosophy and its design.
+
+##### Executing programs
+To execute a program in bash, all you have to do is to write its executable name, and bash
+will do the rest. Unlike a regular programming language, which in that case, you'll have to
+create a subprocess and execute that program in the way that it demands and get the output somehow.
+
+##### $PATH variable
+PATH variable is what makes possiible to execute programs in the way bash does. When you write an
+executable name, bash will look for that in file, in places that are declared in bash.
+
+##### Pipe ( | )
+Pipe is a very unique and special operator in bash, and it is just as important. UNIX philosophy mainly
+demands that in a system there should be small parts that do only one thing and do it good, alongside with that
+there should be connections in this system for these small parts to work together. Pipe is the physical 
+part of this idea, it is very common and very useful.
+
+What it does is basically taking the output from one program and send it as input to another one. It's just
+simple as that, yet so powerful.
+
+##### Redrirection operators (> >> <)
