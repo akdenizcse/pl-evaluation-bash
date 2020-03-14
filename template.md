@@ -101,3 +101,8 @@ What it does is basically taking the output from one program and send it as inpu
 simple as that, yet so powerful.
 
 ##### Redrirection operators (> >> <)
+These are some other operators for redirectin input in a similar manner.
+
+- **>** redirects the output of the program to a file.
+- **>>** appends the output of the program to a file.
+- **<** redirects the contents of the file to a program as input.
