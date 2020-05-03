@@ -1,26 +1,26 @@
 ## Bash (Bourne Again Shell)
 
 #### Name, Author and History of the Language
-   Bash or GNU Bash is a Unix Shell and command language written by Brian Fox, who is a computer programmer 
+   Bash or GNU Bash is a Unix shell and command language written by Brian Fox, who is a computer programmer 
 and entrepreneur, in 1989.  When Richard Stallman who is the founder of Free Software Foundation became 
-displeased to the prior developer than Brian, He started to coding Bash under the GNU Project in 1988. Its name is
+displeased to the prior developer than Brian, he started to coding Bash under the GNU Project in 1988. Its name is
 an acronym for Bourne-Again-Shell and refers to the 'Bourne Shell' developed by Stephen Bourne.Some of the purpose
 of Bourne Shell were allowing shell scripts to be used as filters,controlling over all input/output file descriptors.
 rationalizing and generalizing string quoting mechanism etc. when it was distributed for UNIX version 7. in 1979.
  
  
 #### Why was it invented
-   Bourne shell was a new Unix Shell written by Stephen Bourne at Bell Labs(Bell Telephone Laboratories).It was 
-a replacement for the Thompson sell. Before Bourne Shell family(Early Shells), there were different Unix Shells 
-such as Thompson Shell, Multics Shell etc.These shells were not developed enough to meet the needs. Bourne shell  
+   Bourne shell was a new Unix shell written by Stephen Bourne at Bell Labs(Bell Telephone Laboratories).It was 
+a replacement for the Thompson hell. Before Bourne Shell family(Early Shells), there were different Unix Shells 
+such as Thompson shell, Multics shell etc.These shells were not developed enough to meet the needs. Bourne shell  
 created with many features like providing a set of built-in commands, allowing both synchronous and asynchronous
 execution of commands,provides flow control constructs, quotation facilities, and function etc. Until 1989 it was
-used but at then it was replaced by a more advanced version called 'Bash' which was influenced by Bourne Shell.
+used but at then it was replaced by a more advanced version called 'Bash' which was influenced by Bourne shell.
    
    
 #### When/why shall we use Bash
-   To understand the importance of Bash, we need to understand what is a Shell or specifically  what is the 
-UNIX Shell since Bash is the default shell for most of the Linux installations.
+   To understand the importance of Bash, we need to understand what is a shell or specifically  what is the 
+UNIX shell since Bash is the default shell for most of the Linux installations.
    A shell is simply a macro processor that executes commands. The term macro processor means functionality 
 where text and symbols are expanded to create larger expressions.
    A Unix shell is both a command interpreter and a programming language. As a command interpreter, the shell
