@@ -1,8 +1,44 @@
 ## Bash (Bourne Again Shell)
 
-- History of the language: who/when invented it, which languages influenced it, etc.
-- Why was it invented
-- When/why shall we use it
+#### Name, Author and History of the Language
+   Bash or GNU Bash is a Unix Shell and command language written by Brian Fox, who is a computer programmer 
+and entrepreneur, in 1989.  When Richard Stallman who is the founder of Free Software Foundation became 
+displeased to the prior developer than Brian, He started to coding Bash under the GNU Project in 1988. Its name is
+an acronym for Bourne-Again-Shell and refers to the 'Bourne Shell' developed by Stephen Bourne.Some of the purpose
+of Bourne Shell were allowing shell scripts to be used as filters,controlling over all input/output file descriptors.
+rationalizing and generalizing string quoting mechanism etc. when it was distributed for UNIX version 7. in 1979.
+ 
+ 
+#### Why was it invented
+   Bourne shell was a new Unix Shell written by Stephen Bourne at Bell Labs(Bell Telephone Laboratories).It was 
+a replacement for the Thompson sell. Before Bourne Shell family(Early Shells), there were different Unix Shells 
+such as Thompson Shell, Multics Shell etc.These shells were not developed enough to meet the needs. Bourne shell  
+created with many features like providing a set of built-in commands, allowing both synchronous and asynchronous
+execution of commands,provides flow control constructs, quotation facilities, and function etc. Until 1989 it was
+used but at then it was replaced by a more advanced version called 'Bash' which was influenced by Bourne Shell.
+   
+   
+#### When/why shall we use Bash
+   To understand the importance of Bash, we need to understand what is a Shell or specifically  what is the 
+UNIX Shell since Bash is the default shell for most of the Linux installations.
+   A shell is simply a macro processor that executes commands. The term macro processor means functionality 
+where text and symbols are expanded to create larger expressions.
+   A Unix shell is both a command interpreter and a programming language. As a command interpreter, the shell
+provides the user interface to the rich set of GNU utilities. that provides a command line interface(CLI) for 
+Unix-like operating systems. The main purpose of a UNIX shell is to allow users to interact effectively with 
+the system through the command line 
+   The terminal is an important component of any useful operating system. It is one of the most important applications
+on Mac and Linux. The terminal provides an efficient interface to better access the real power of a computer than 
+any graphical interface and when we open terminal we are presented by shell and in Linux and Mac the Shell is 
+Bash. We can also use a version of Bash in Windows, even though it is not preinstalled.
+   Bash is also a scripting language, meaning we can create scripts that can run multiple commands, support control 
+structures, variables, and much more.
+   There are many reason to why should we use Bash as both scripting language or interpreter. For example, it's the 
+most efficient shell scripting language, we can automate the frequently performed operations, it's portable and
+very easy to use. We can use bash for doing amazing works but should be careful and be aware of the power of bash. 
+Because when using Bash we are executing the power you have over the computer, and carelessly written codes may 
+cause undesirable results
+
 
 #### How to setup an environment to use it in different platforms
 Bash is preinstalled in nearly every Unix system, including BSD-derivatives,
